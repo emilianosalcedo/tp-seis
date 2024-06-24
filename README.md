@@ -1,5 +1,6 @@
-# tp-seis
-Propuesta de trabajo 1
+# TP - Seguridad e Integridad de Sistemas
+
+## Propuesta de trabajo 1
 
 https://emilianosalcedo.github.io/tp-seis/
 
