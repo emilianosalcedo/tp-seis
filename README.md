@@ -6,22 +6,22 @@
 
 Un atacante podría insertar el siguiente script en el campo de comentarios:
 
-`<script>alert('¡Este es un ataque XSS!');</script>`
+`<script>alert('Prueba de XSS');</script>`
 
-[Mitigacion XSS](https://emilianosalcedo.github.io/tp-seis/src/xss/mitigacion.html)
+ + [Mitigacion XSS](https://emilianosalcedo.github.io/tp-seis/src/xss/mitigacion.html)
 
 + [Ejemplo de Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/index.html)
 
 Se puede manipular el parámetro `redirectTo` para realizar una redirección.
  
-`https://emilianosalcedo.github.io/tp-seis/src/or/index.html?redirectTo=https://www.google.com/`
+[](https://emilianosalcedo.github.io/tp-seis/src/or/index.html?redirectTo=https://www.google.com/)
 
-Oprimir `Enter` y hacer click en _Confirmar Registro_
+Hacer click en _Confirmar Registro_ y se redireccionará manualmente a la URL que se desee.
 
-[Mitigacion Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/mitigacion.html)
+ + [Mitigacion Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/mitigacion.html)
 
 + [Ejemplo de Bussines Logic Abuse](https://emilianosalcedo.github.io/tp-seis/src/bla/index.html)
 
 Utilizar los cupones `DESCUENTO10` y/o `DESCUENTO20` múltiples veces.
 
-[Mitigacion BLA](https://emilianosalcedo.github.io/tp-seis/src/bla/mitigacion.html)
+ + [Mitigacion BLA](https://emilianosalcedo.github.io/tp-seis/src/bla/mitigacion.html)
