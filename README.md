@@ -2,9 +2,7 @@
 
 ## Propuesta de trabajo 1
 
-https://emilianosalcedo.github.io/tp-seis/
-
-[Ejemplo de un Ataque XSS](https://emilianosalcedo.github.io/tp-seis/src/xss/index.html)
++ [Ejemplo de un Ataque XSS](https://emilianosalcedo.github.io/tp-seis/src/xss/index.html)
 
 Un atacante podría insertar el siguiente script en el campo de comentarios:
 
@@ -12,7 +10,7 @@ Un atacante podría insertar el siguiente script en el campo de comentarios:
 
 [Mitigacion XSS](https://emilianosalcedo.github.io/tp-seis/src/xss/mitigacion.html)
 
-[Ejemplo de Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/index.html)
++ [Ejemplo de Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/index.html)
 
 Se puede manipular el parámetro `redirectTo` para realizar una redirección.
  
@@ -22,7 +20,7 @@ Oprimir `Enter` y hacer click en _Confirmar Registro_
 
 [Mitigacion Open Redirect](https://emilianosalcedo.github.io/tp-seis/src/or/mitigacion.html)
 
-[Ejemplo de Bussines Logic Abuse](https://emilianosalcedo.github.io/tp-seis/src/bla/index.html)
++ [Ejemplo de Bussines Logic Abuse](https://emilianosalcedo.github.io/tp-seis/src/bla/index.html)
 
 Utilizar los cupones `DESCUENTO10` y/o `DESCUENTO20` múltiples veces.
 
