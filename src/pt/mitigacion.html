@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Archivos - Path Traversal</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Gestión de Archivos</h1>
+    <form id="archivoForm">
+      <label for="rutaArchivo">Ruta del archivo:</label>
+      <input type="text" id="rutaArchivo" name="rutaArchivo" placeholder="Ejemplo: documentos/factura.pdf">
+      <button type="submit">Descargar Archivo</button>
+    </form>
+    <div id="resultadoDescarga"></div>
+  </div>
+  <script src="mitigacion.js"></script>
+</body>
+</html>

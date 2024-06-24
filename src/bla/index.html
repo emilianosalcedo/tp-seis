@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    <div id="carrito">
+        <div class="item" data-price="100">
+          <p>Producto 1: <b>$100</b></p>
+        </div>
+        <div class="item" data-price="200">
+          <p>Producto 2: <b>$200</b></p>
+        </div>
+    </div>
+    <h3>Total: $<span id="total">300</span></h3>
+
+    <h3>Aplicar Código de Descuento:</h3>
+    <form id="formDescuento">
+        <input type="text" id="codigoDescuento" placeholder="Código de descuento">
+        <button type="submit">Aplicar</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
