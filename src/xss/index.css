@@ -13,6 +13,11 @@ header {
   text-align: center;
 }
 
+.imageHeader {
+  margin-top: 10px;
+  margin-left: 42%;
+}
+
 #post {
   background-color: white;
   max-width: 800px;
