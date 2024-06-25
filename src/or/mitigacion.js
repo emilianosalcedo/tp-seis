@@ -3,9 +3,10 @@
  */
 document.getElementById('redireccion').addEventListener('click', (event) => {
   event.preventDefault();
-  let redirectTo = obtenerParametro('redirectTo');
+  let url = window.location.href;
+  let redirectTo = obtenerParametro('redirectTo', url);
 
-  if (redirectTo && esLinkValido()) {
+  if (redirectTo && esLinkValido(url)) {
     // Redirigir a la URL obtenida
     window.location.href = redirectTo;
   }
