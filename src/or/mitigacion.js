@@ -6,7 +6,7 @@ document.getElementById('redireccion').addEventListener('click', (event) => {
   let url = window.location.href;
   let redirectTo = obtenerParametro('redirectTo', url);
 
-  if (redirectTo && esLinkValido(url)) {
+  if (redirectTo && esLinkValido(redirectTo)) {
     // Redirigir a la URL obtenida
     window.location.href = redirectTo;
   }
